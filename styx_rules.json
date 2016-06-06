@@ -1,7 +1,8 @@
 {
   "http": {
       "localhost:8009": [
-	  { "type": "cors",
+  	  {
+        "type": "cors",
 	    "headers": {
 		"access-control-allow-origin": "*",
 		"access-control-allow-headers": "authorization, content-type, x-tidepool-session-token",
